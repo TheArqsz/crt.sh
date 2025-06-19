@@ -1,3 +1,29 @@
+### Updated Docs after my changes ([@TheArqsz](https://github.com/TheArqsz))
+
+I chaned the logic of the script a little bit so I can use it more freely in the automated environment.
+
+Current usage:
+
+```bash
+A script to query the crt.sh certificate transparency log.
+
+Usage: ./crt_v2.sh [OPTIONS]
+
+Options:
+  -d, --domain <domain>        Search for a specific domain name (e.g., hackerone.com)
+      --org <organization>     Search for a specific organization name (e.g., 'HackerOne, Inc.')
+  -o, --output <file>          File to save results. If not set, results are printed to stdout.
+  -s, --silent                 Suppress banner and non-essential output.
+  -h, --help                   Display this help message
+
+Examples:
+  ./crt_v2.sh --domain hackerone.com
+  ./crt_v2.sh --org 'HackerOne, Inc.' --output ./results.txt
+  ./crt_v2.sh -d example.com -s | grep '.com'
+```
+
+All the original credits go to [az7rb](https://github.com/az7rb)
+
 ### Updated Documentation for crt.sh v2.0
 
 The **v2.0** version of the script, now named `crt_v2.sh`, introduces significant improvements in performance, reliability, and documentation. Below are the updated instructions for setting up and using both the original script `crt.sh` and the new `crt_v2.sh`:
