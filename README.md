@@ -1,6 +1,6 @@
 ### Updated Docs after my changes ([@TheArqsz](https://github.com/TheArqsz))
 
-I chaned the logic of the script a little bit so I can use it more freely in the automated environment.
+I changed the logic of the script a little bit so I can use it more freely in the automated environment.
 
 Current usage:
 
