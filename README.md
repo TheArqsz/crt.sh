@@ -1,8 +1,8 @@
-### Updated Docs after my changes ([@TheArqsz](https://github.com/TheArqsz))
+### Updated Docs after new changes ([@TheArqsz](https://github.com/TheArqsz))
 
-I changed the logic of the script a little bit so I can use it more freely in the automated environment.
+I changed the logic of the script a little bit so I can use it more freely in the automated environment and it aligns more with popular security tools.
 
-Current usage:
+Updated usage:
 
 ```bash
 A script to query the crt.sh certificate transparency log.
@@ -20,6 +20,7 @@ Examples:
   ./crt_v2.sh --domain hackerone.com
   ./crt_v2.sh --org 'HackerOne, Inc.' --output ./results.txt
   ./crt_v2.sh -d example.com -s | grep '.com'
+  ./crt_v2.sh -d example.com -s | httpx
 ```
 
 All the original credits go to [az7rb](https://github.com/az7rb)

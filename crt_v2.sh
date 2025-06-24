@@ -26,6 +26,7 @@ show_help() {
     echo "  $0 --domain hackerone.com"
     echo "  $0 --org 'HackerOne, Inc.' --output ./results.txt"
     echo "  $0 -d example.com -s | grep '.com'"
+    echo "  $0 -d example.com -s | httpx"
 }
 
 # Purpose: Clean and filter the results by removing unwanted characters and duplicates.
